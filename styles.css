@@ -1,0 +1,138 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@100;200;300;400;500;600;700;800&family=Noto+Sans:wght@400;700&display=swap");
+
+:root {
+  --main-blue: #2e4db3;
+  --main-blue-light: #4c63ac;
+  --main-yellow: #c5a051;
+  --main-red: rgb(190, 74, 45);
+}
+
+.contenedor-centro {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.encabezado {
+  background-color: black;
+  color: white;
+  font-family: "Montserrat Alternates", sans-serif;
+  padding: 15px;
+}
+.encabezado h1 {
+  font-weight: 300;
+}
+
+.link-drive {
+  padding: 5px;
+}
+.link-drive a {
+  text-decoration: none;
+  font-family: "Noto Sans", sans-serif;
+  color: var(--main-blue);
+}
+
+.formulario {
+  margin: 20px;
+  box-shadow: 5px 5px 10px rgb(160, 160, 160);
+  padding: 40px;
+  width: 50%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.formulario h3 {
+  text-align: center;
+  margin: 15px;
+  font-family: "Montserrat Alternates", sans-serif;
+}
+.formulario form {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+}
+.formulario form label {
+  font-family: "Noto Sans", sans-serif;
+  color: #555;
+}
+.formulario form input {
+  margin-bottom: 15px;
+  padding: 5px;
+  border: none;
+  background-color: #f2f2f2;
+}
+.formulario form input[type="file"] {
+  background-color: white;
+}
+.formulario form input[type="submit"] {
+  background-color: var(--main-yellow);
+  color: white;
+  transition: all 0.5s ease-in-out;
+  padding: 10px;
+  margin-top: 10px;
+  font-family: "Noto Sans", sans-serif;
+}
+.formulario form input[type="submit"]:hover {
+  cursor: pointer;
+  background-color: var(--main-blue-light);
+  box-shadow: 3px 3px 3px #ccc;
+}
+.grupo {
+  display: flex;
+  justify-content: space-between;
+}
+.grupo input {
+  width: 35%;
+}
+
+.entregas-titulo {
+  color: var(--main-blue);
+  font-family: "Montserrat Alternates", sans-serif;
+  font-weight: 300;
+}
+
+.entregas {
+  margin-top: 20px;
+}
+.entregas table {
+  margin: 20px 0px;
+}
+.entregas table th {
+  background-color: black;
+  color: white;
+  padding: 10px;
+  font-family: "Montserrat Alternates", sans-serif;
+  font-weight: 200;
+  margin: 0;
+  border: 1px solid #444;
+}
+.entregas table tr:nth-child(even) {
+  background-color: rgb(197, 197, 197);
+}
+.entregas table td {
+  text-align: center;
+  font-family: "Noto Sans", sans-serif;
+  line-height: 3;
+}
+.entregas table td button {
+  border: none;
+  padding: 10px 5px;
+  background-color: var(--main-red);
+  color: white;
+  font-family: "Noto Sans", sans-serif;
+  transition: all 0.2s ease-in-out;
+}
+.entregas table td button:hover {
+  color: #999;
+  cursor: pointer;
+}
+.entregas select {
+  padding: 10px;
+  width: 100%;
+}
+@media only screen and (max-width: 768px) {
+  .formulario {
+    width: 90%;
+  }
+}
