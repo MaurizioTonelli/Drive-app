@@ -130,6 +130,7 @@
 .entregas select {
   padding: 10px;
   width: 100%;
+  border: 1px solid #ddd;
 }
 @media only screen and (max-width: 768px) {
   .formulario {
