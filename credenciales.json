@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "administrador-de-entregas",
+  "private_key_id": "05ea8f18c88fb8c6b2a1a67beef7d6a15f35bb3b",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvwIBADANBgkqhkiG9w0BAQEFAASCBKkwggSlAgEAAoIBAQC1VxwbFU8XT+d2\nkRzFCLIX41RlN2ppzlr4FqTzbOHgDIqn0gUWCc2Ov9OTzf7RsxDzvg7/bQjdbECB\nqE4/0LQvYktmjy6+16xqTgXjlhNWMXxwQwpRvNcolReNNLQ7OTQwVVuueKbD3Cz6\ntEhDethRVSBoJKPolJATF7GLYfpjehxuvGLAblVWLAlKwPqWoaIkEMTAF9KCfA6K\n1aX9Q/s9CyI9zN3V/yLmmylwcKD9sRVVBwZ2ZJPa7/aHvL1OItAkR80vvILvTEqe\n8fDlMmM2v4bl+cus4MSQ577K2Et4VSCP4AVLSryYue5SOc1drqo+PNVi/cdYbKB5\nGwuBdaIpAgMBAAECggEAA/RKaDByrnu0fKelP1+qldjuxXFBUwgoACpq6OWk1vBM\naA9CmKHYl2ZenFBnitY926Qh6sHLfxvl8TMvbPalreCAa+lZ4oP3SMR684+ZdthH\n53Zyx72s2b/x3kdPWc5BcX9fAILgLLuvnbznftSI2dyCbdBEubo0RRJPxw4Oeh5N\nWw6VOgeEDypbMXzRiVD59xoe7RyoKJNounXs6mgM+1GIINHnpkv2pqYNE1kDcrxA\n1xZDtxl9MCTniJqjhfF4RLQc4GJr8RZm2EYrsvIF1UgtxtzbGt++jEFAEs3DfSxO\nuGqlheTNpmMzJJQa2ArPNgpMxX8lgjl61Xv1CO9tXQKBgQDuD0w/UYc1PrGzBEMh\n6tiDS+NIxIJaYoKFyIpXTiU213xY0gyXEC7d0rANrGrYlWZmGeKSMQFJlZvwVeIX\nxhuYmpm/nl1xvfvVhvUDsYC0TQeTEThzHLVcxB/0eiLjinLg+8QjZmsYYAQ0Tz3H\n+P93YbHbJUoYlbvZaaBluPvQjQKBgQDDAZEjXkoRLRBfpfQ0wKcUO0TmuI6ojewT\nC5fGlfzL0w1XQ2jkvAAjaPjB25Agjq4mqyh9hVj32DAmd6+pO9ZGY9Qx0EEbo/0+\n+mXgB5JvEjN8ZlbLuKLu0tzHqdAmNnC9eIu70gkl/HUkiF3MXzVL0XMNRA+btKU2\nfUgwBUT3DQKBgQChcqKFNqd5xsEA5V0Z/YlE0gycZxj4b2KRlIWt3AOFA/MC0cFU\nGdeO/LoFK+9yXzAJAnkUKEP1QY92GOiysto4TnEC8UXyQ6QtFc/I53Kf1LXUWZNt\nDgU5mpEJXmOW6WgriNNmJqlu6H8xcqQ1oHqw3gKe2tU7gyDYu7faBPBSaQKBgQCh\nK+xfRREGfS5pP2pFJ21wJURfRO5zlUkmvJAnC9QySi9ejlJlqpSar6nZ37SRlBuP\nzirbA5lyzvWM9aLzxoblCqFYwnztcW5f3OjSbq+yqWJwUM0v91yC8ziStWFaE+i+\nUKF9DK2O/cd7+FE+FvqfvW7P6g7UbEuYa5d8SP6lCQKBgQCFRIiRFnD5lG/aeIT0\nXWEdJWpGfCfSmORraOVtpv1CoH4wcEzivjSw+1na4xpJ6120PTE5pUrrDoJntEGR\nqRkNyUOjXEiQlMVsxjUM6+6/fH1NP2lbu7DGr54MUNAWHkAU8DbE0Vdq81Ql4ckN\ncfMg/9lAseOuJsstgmG+AYoxPg==\n-----END PRIVATE KEY-----\n",
+  "client_email": "administrador-de-entregas-240@administrador-de-entregas.iam.gserviceaccount.com",
+  "client_id": "118300254704817471614",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/administrador-de-entregas-240%40administrador-de-entregas.iam.gserviceaccount.com"
+}

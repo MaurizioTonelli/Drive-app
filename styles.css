@@ -33,6 +33,15 @@
   color: var(--main-blue);
 }
 
+.mensaje-exito p {
+  color: #367227;
+  font-family: "Noto Sans", sans-serif;
+}
+.mensaje-error p {
+  color: #99252b;
+  font-family: "Noto Sans", sans-serif;
+}
+
 .formulario {
   margin: 20px;
   box-shadow: 5px 5px 10px rgb(160, 160, 160);
@@ -90,6 +99,12 @@
   color: var(--main-blue);
   font-family: "Montserrat Alternates", sans-serif;
   font-weight: 300;
+  margin-top: 20px;
+}
+.entregas-error {
+  color: var(--main-red);
+  font-family: "Montserrat Alternates", sans-serif;
+  font-weight: 200;
 }
 
 .entregas {
@@ -115,15 +130,17 @@
   font-family: "Noto Sans", sans-serif;
   line-height: 3;
 }
-.entregas table td button {
+.entregas table td .button {
   border: none;
   padding: 10px 5px;
   background-color: var(--main-red);
   color: white;
   font-family: "Noto Sans", sans-serif;
   transition: all 0.2s ease-in-out;
+  text-decoration: none;
+  font-size: 12px;
 }
-.entregas table td button:hover {
+.entregas table td .button:hover {
   color: #999;
   cursor: pointer;
 }
@@ -131,6 +148,45 @@
   padding: 10px;
   width: 100%;
   border: 1px solid #ddd;
+}
+
+.registro {
+  box-shadow: 5px 5px 5px rgb(185, 183, 183);
+  border: 1px solid #eee;
+  border-radius: 8px;
+  padding: 40px;
+  width: 60%;
+  margin-top: 8px;
+}
+.registro .fila {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  font-family: "Noto Sans", sans-serif;
+  border-bottom: 2px groove #e2e2e2;
+  padding: 10px;
+}
+.registro .fila strong {
+  font-weight: 600;
+}
+.descargar-form {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.descargar {
+  margin-top: 10px;
+  border: none;
+  padding: 10px;
+  width: 60%;
+  background-color: var(--main-red);
+  color: white;
+  font-family: "Noto Sans", sans-serif;
+  transition: all 0.3s ease-in-out;
+}
+.descargar:hover {
+  background-color: var(--main-yellow);
+  cursor: pointer;
 }
 @media only screen and (max-width: 768px) {
   .formulario {
